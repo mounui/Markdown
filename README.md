@@ -9,3 +9,5 @@ Markdown标记语言常用语法解读及资料
 
 - git branch dev
 - git checkout dev
+
+#### git解决冲突
