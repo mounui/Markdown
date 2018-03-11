@@ -10,4 +10,10 @@ Markdown标记语言常用语法解读及资料
 - git branch dev
 - git checkout dev
 
+<<<<<<< HEAD
 #### git解决冲突
+=======
+#### git创建并切换分支
+
+- git checkout -u \<brach name\>
+>>>>>>> fe
