@@ -5,4 +5,7 @@ Markdown标记语言常用语法解读及资料
 
 - https://github.com/guodongxiaren/README
 
-markdown标记语言
+#### git创建分支
+
+- git branch dev
+- git checkout dev
