@@ -215,3 +215,11 @@ if (time() > 0) {
 
 ## 链接
 
+**内链式**：`{:target="_blank"}`兼容性一般，多数第三方平台不支持
+
+```markdown
+[木凡博客](http://mounui.com/"木凡博客"){:target="_blank"}
+```
+
+[木凡博客](http://mounui.com/"木凡博客"){:target="_blank"}
+
