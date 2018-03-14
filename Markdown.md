@@ -184,6 +184,12 @@ Markdown 的锚点和 html 锚点类似：
 
 Markdown 支持在下面这些符号前面加上反斜线来帮助插入普通的符号：
 
+<style>
+table tr {
+​    width: 100%;
+}
+</style>
+
 | 符号 |   说明   |
 | :--: | :------: |
 |  \\  |  反斜线  |
@@ -218,8 +224,8 @@ if (time() > 0) {
 **内链式**：`{:target="_blank"}`兼容性一般，多数第三方平台不支持
 
 ```markdown
-[木凡博客](http://mounui.com/"木凡博客"){:target="_blank"}
+[木凡博客](http://mounui.com/){:target="_blank"}
 ```
 
-[木凡博客](http://mounui.com/"木凡博客"){:target="_blank"}
+[木凡博客](http://mounui.com/)
 
