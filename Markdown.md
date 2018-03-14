@@ -141,3 +141,51 @@ Markdown 的锚点和 html 锚点类似：
 
 - [ ] 不勾选
 - [x] 勾选
+
+## 跳脱字元
+
+在 Markdown 中如果你想输出语法中有意义的符号而不让它转义，可以在字符前加上反斜线 \
+
+```markdown
+\*这里的文本不在倾斜了\*
+```
+
+效果如下：
+
+\*这里的文本不在倾斜了\*
+
+Markdown 支持在下面这些符号前面加上反斜线来帮助插入普通的符号：
+
+| 符号 |   说明   |
+| :--: | :------: |
+|  \\  |  反斜线  |
+|  \`  |  反引号  |
+|  \*  |   星号   |
+|  \_  |  下划线  |
+| \{\} |  大括号  |
+| \[\] |  方括号  |
+| \(\) |   括号   |
+|  \#  |   井号   |
+|  \+  |   加号   |
+|  \-  |   减号   |
+|  \.  | 英文句点 |
+|  \!  |  感叹号  |
+
+## 代码
+
+**代码块**：使用多个 \` 号包裹，如果需要高亮，就在 \` 号后面加上语言标记
+
+```php
+if (time() > 0) {
+    echo 'If you were a tear drop,I would never cry for being afraid of losing you.If I were to fall into the hell,only one of your smile can save to the heaven.';
+}
+```
+
+**内联代码**：使用一个 \` 号包裹代码
+
+请用 php 输出“Hello World!”：`echo 'Hello World!';`
+
+
+
+
+
