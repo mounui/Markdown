@@ -1,4 +1,4 @@
-# Markdown 常用语法
+Markdown 常用语法
 
 [TOC]
 
@@ -246,5 +246,9 @@ if (time() > 0) {
 
 在链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片
 
-
+|     描述     | 语法                                                        | 效果                                                      |
+| :----------: | ----------------------------------------------------------- | --------------------------------------------------------- |
+|  **内链式**  | `![name](img/github.png 'github')`                          | ![name](img/github.png 'github')                          |
+|  **引用式**  | `![name][01]` `[01]:img/wechat.png 'wechat'`                | ![name][01][01]：img/github.png                           |
+| **图片链接** | `[![name](img/douban.png '豆瓣')](https://www.douban.com/)` | [![name](img/douban.png '豆瓣')](https://www.douban.com/) |
 
