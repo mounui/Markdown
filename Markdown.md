@@ -145,6 +145,8 @@ Markdown[^1]
 
 [^1]: Markdown是一种纯文本标记语言
 
+<p style="color: #AD5D0F;font-size: 30px; font-family: '宋体';">内联样式</p>
+
 ## 列表
 
 列表项目标记符号放在最左边并且留一个空格。
