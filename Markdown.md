@@ -1,6 +1,4 @@
-Markdown 常用语法
-
-[TOC]
+# Markdown 常用语法
 
 ## Markdown 语法介绍
 
@@ -312,3 +310,6 @@ a  | b | c
 ## 表情
 
 Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
+
+[回到顶部](#markdown-常用语法)
+
