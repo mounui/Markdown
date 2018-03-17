@@ -134,6 +134,17 @@ Markdown 的锚点和 html 锚点类似：
 
 [回到顶部](#markdown-常用语法)
 
+## 脚注
+
+```markdown
+Markdown[^1]
+[^1]:Markdown是一种纯文本标记语言		// 在文章最后添加脚注
+```
+
+Markdown[^1]
+
+[^1]: Markdown是一种纯文本标记语言
+
 ## 列表
 
 列表项目标记符号放在最左边并且留一个空格。
