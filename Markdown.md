@@ -78,6 +78,8 @@ TOC用于 Markdown 生成目录
 |   下标   |  `Z<sub>a</sub>`  |  Z<sub>a</sub>  |
 | 键盘文本 | `<kbd>Ctrl</kbd>` | <kbd>Ctrl</kbd> |
 
+**换行符**：在末尾敲击两个以上空白，然后回车；
+
 ## 引用
 
 Markdown 标记区块引用只需要在段落前加上 >
